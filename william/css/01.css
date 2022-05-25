@@ -1,0 +1,23 @@
+body{
+    background-color: beige;
+}
+.img-list{
+    width: 190px;
+    height: 470px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.img-list li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+/* ul>li:not(:last-child){
+    margin-bottom: 10px;
+} */
+.img-list img{
+    width: 100%;
+}
+/* ul>li img{
+width: 100%;
+} */
+

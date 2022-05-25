@@ -1,0 +1,32 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.left-nav {
+    width: 190px;
+    height: 450px;
+    /* padding: 100px auto; */
+    margin: 100px auto;
+    overflow: hidden;
+
+}
+
+.item {
+    background-color: aqua;
+    height: 25px;
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.item:hover {
+    background-color: blue;
+}
+
+.item a:hover {
+    color: red;
+}
+
+.item a {
+    text-decoration: none;
+}
