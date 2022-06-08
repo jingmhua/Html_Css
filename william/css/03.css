@@ -1,0 +1,82 @@
+.news {
+    width: 300px;
+    height: 324px;
+    margin: 100px auto;
+    /* 设置上边框 */
+    border-top: 1px solid #ddd;
+    /* 设置背景颜色，显示轮廓 */
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.news_title {
+
+    /* font-size:60px; */
+    /* height: 40px; */
+    /* border-top: 1px #ddeedd solid; */
+    display: inline-block;
+    /* 设置高度 */
+    height: 30px;
+    /* 设置上边框  */
+    border-top: 1px red solid;
+    /* 通过margin-top将h2上移，盖住上边框 */
+    margin-top: -1px;
+    padding-top: 10px;
+}
+
+.news_title a {
+    /* 设置颜色 */
+    color: brown;
+    /* 设置文字的加粗效果 */
+    font-weight: bold;
+
+}
+
+.news_img {
+    height: 150px;
+}
+
+.news_img .img_title {
+    /* 向上移动文字 */
+    margin-top: -30px;
+    /* 设置字体颜色 */
+    color: #fff;
+    /* 设置加粗 */
+    font-weight: bold;
+    /* 设置padding */
+    padding-left: 30px;
+
+}
+
+.news_list {
+    margin-top: 10px;
+
+    /* 设置项目符号 */
+    /* list-style: square; */
+}
+
+.news_list li {
+    /* margin: 1px; */
+    margin-bottom: 10px;
+}
+
+/* 通过before伪元素，来为每一个li添加项目符号 */
+.news_list li::before {
+    content: '■';
+    color: black;
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+.news_list li a {
+    font-size: 18px;
+    color: chartreuse;
+}
+
+/* 设置超链接的鼠标移入的样式 */
+.news_list li a:hover {
+    color: chocolate;
+}
