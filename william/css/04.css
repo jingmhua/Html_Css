@@ -1,0 +1,36 @@
+
+
+/* 设置nav的大小 */
+.nav {
+
+    /* 设置宽度和高度 */
+    width: 1210px;
+    height: 48px;
+    /* 设置背景颜色 */
+    background-color: #E8E7E3;
+
+    margin: 100px auto;
+
+}
+.nav li {
+    float:left;
+    line-height: 48px;
+}
+.nav li:last-child a{
+    padding: 0 42px 0 39px;
+}
+
+.nav a {
+    text-decoration: none;
+    display: block;    
+    /* 设置字体颜色 */
+    color: #777777;
+     /* 修改字体大小 */
+     font-size: 18px;
+     margin: auto 39px;
+}
+.nav a:hover{
+
+background-color: #3F3F3F;
+            color: #E8E7E3;
+}
