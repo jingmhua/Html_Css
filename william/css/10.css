@@ -1,0 +1,55 @@
+.outer {
+    width: 240px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.img-wrapper img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.info {
+    padding: 0 18px;
+    color: blue;
+    font-size: 14px;
+}
+
+.info .title {
+    color: #000;
+    font-size: 18px;
+
+}
+
+.info .category i {
+    margin-top: 5px;
+    /* margin-left: 4px; */
+    margin-right: 7px;
+
+}
+
+.info .intro {
+    margin: 18px 4px;
+    line-height: 20px;
+}
+
+.star-wrapper {
+    height: 46px;
+    line-height: 46px;
+    border-top: 1px solid #e9e9e9;
+    color: #ddd;
+    padding: 0 16px;
+}
+
+/* 设置星星的样式 */
+.star-wrapper .star {
+    float: left;
+
+}
+
+.star-wrapper .light {
+    color: #b9cb41;
+}
+.star-wrapper .weibo{
+    float: right;
+}
